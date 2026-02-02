@@ -1,0 +1,11 @@
+# RAG Q&A Demo - Dependencies
+
+# Core
+openai>=1.0.0
+numpy>=1.24.0
+
+# Weave (스킬 적용 후 필요)
+weave>=0.50.0
+
+# Optional: for data loading
+pandas>=2.0.0

@@ -1,0 +1,33 @@
+{
+  "name": "weave-skills-plugins",
+  "owner": {
+    "name": "hyunwoo",
+    "email": "hyunwoo@example.com"
+  },
+  "metadata": {
+    "description": "W&B Weave plugins for Claude Code - LLM observability and evaluation toolkit",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "weave",
+      "source": "./plugins/weave",
+      "description": "W&B Weave integration for LLM observability and evaluation. Initialize projects, add tracing, create scorers, build evaluation pipelines, and manage datasets.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hyunwoo"
+      },
+      "keywords": [
+        "weave",
+        "wandb",
+        "llm",
+        "evaluation",
+        "tracing",
+        "observability",
+        "scorer",
+        "dataset"
+      ],
+      "category": "integration"
+    }
+  ]
+}

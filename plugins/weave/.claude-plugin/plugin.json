@@ -1,0 +1,21 @@
+{
+  "name": "weave",
+  "description": "W&B Weave integration for LLM observability and evaluation. Initialize projects, add tracing, create scorers, build evaluation pipelines, and manage datasets.",
+  "version": "1.0.0",
+  "author": {
+    "name": "hyunwoo"
+  },
+  "homepage": "https://docs.wandb.ai/weave",
+  "repository": "https://github.com/hyunwoo/weave-skills",
+  "license": "MIT",
+  "keywords": [
+    "weave",
+    "wandb",
+    "llm",
+    "evaluation",
+    "tracing",
+    "observability",
+    "scorer",
+    "dataset"
+  ]
+}
