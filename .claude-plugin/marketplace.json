@@ -1,8 +1,8 @@
 {
-  "name": "weave-skills-plugins",
+  "name": "wandb-plugins",
   "owner": {
     "name": "hyunwoo",
-    "email": "hyunwoo@example.com"
+    "email": "tinkerrman@gmail.com"
   },
   "metadata": {
     "description": "W&B Weave plugins for Claude Code - LLM observability and evaluation toolkit",
