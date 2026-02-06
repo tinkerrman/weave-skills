@@ -36,6 +36,9 @@ The `/weave` skill provides comprehensive W&B Weave support:
 | create-scorer | Create evaluation scorers | references/create-scorer.md |
 | create-eval | Build evaluation pipelines | references/create-eval.md |
 | create-dataset | Create evaluation datasets | references/create-dataset.md |
+| create-model | Create weave.Model subclasses | references/create-model.md |
+| create-prompt | Create versioned prompts | references/create-prompt.md |
+| add-guardrails | Add production guardrails | references/add-guardrails.md |
 
 ### Usage
 
@@ -59,6 +62,9 @@ Code examples in `assets/`:
 - `scorer_examples.py` - Scorer implementations
 - `eval_examples.py` - Evaluation workflows
 - `dataset_examples.py` - Dataset creation
+- `model_examples.py` - weave.Model patterns
+- `prompt_examples.py` - Prompt management
+- `guardrail_examples.py` - Guardrail implementations
 
 ## References
 
@@ -68,3 +74,6 @@ Detailed guides in `references/`:
 - `create-scorer.md` - Scorer creation workflow
 - `create-eval.md` - Evaluation pipeline workflow
 - `create-dataset.md` - Dataset creation workflow
+- `create-model.md` - Model creation workflow
+- `create-prompt.md` - Prompt management workflow
+- `add-guardrails.md` - Guardrail addition workflow

@@ -1,7 +1,7 @@
 {
   "name": "weave",
-  "description": "W&B Weave integration for LLM observability and evaluation. Initialize projects, add tracing, create scorers, build evaluation pipelines, and manage datasets.",
-  "version": "1.0.0",
+  "description": "W&B Weave integration for LLM observability and evaluation. Initialize projects, add tracing, create models, manage prompts, create scorers, build evaluation pipelines, manage datasets, and add production guardrails.",
+  "version": "1.1.0",
   "author": {
     "name": "hyunwoo"
   },
@@ -16,6 +16,9 @@
     "tracing",
     "observability",
     "scorer",
-    "dataset"
+    "dataset",
+    "model",
+    "prompt",
+    "guardrail"
   ]
 }

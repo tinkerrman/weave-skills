@@ -10,10 +10,10 @@ W&B Weave를 위한 Claude Code 스킬입니다. LLM 관측성(observability)과
 
 ```bash
 # 마켓플레이스 등록
-/plugin marketplace add https://github.com/YOUR_USERNAME/weave-skills
+/plugin marketplace add https://github.com/tinkerrman/weave-skills
 
 # 플러그인 설치
-/plugin install weave
+/plugin install weave@wandb-plugins
 ```
 
 ### 방법 2: 프로젝트에 복사
@@ -41,6 +41,9 @@ cp -r skills/weave ~/.claude/skills/
 | **create-scorer** | 평가용 Scorer 생성 | scorer, score, judge |
 | **create-eval** | 평가 파이프라인 구성 | eval, evaluation, pipeline |
 | **create-dataset** | 평가 데이터셋 생성 | dataset, data, csv |
+| **create-model** | weave.Model 클래스 생성 | model, weave.Model, predict |
+| **create-prompt** | 버전 관리 프롬프트 생성 | prompt, template, versioning |
+| **add-guardrails** | 프로덕션 가드레일 추가 | guardrail, guard, monitor, safety |
 
 ## 사용 예시
 

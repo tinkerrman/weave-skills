@@ -41,6 +41,9 @@ The `/weave` skill provides:
 | **create-scorer** | Create evaluation Scorers | scorer, score, judge |
 | **create-eval** | Build evaluation pipelines | eval, evaluation, pipeline |
 | **create-dataset** | Create evaluation datasets | dataset, data, csv |
+| **create-model** | Create weave.Model subclasses | model, weave.Model, predict |
+| **create-prompt** | Create versioned prompts | prompt, template, versioning |
+| **add-guardrails** | Add production guardrails | guardrail, guard, monitor, safety |
 
 ## Usage Examples
 
